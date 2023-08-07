@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="snifftegist" content="https://snifftegist.com">
-  <meta name="keywords" content="A Website For Sectors Of The Local, Federal And State Government">
+  <meta name="keywords" content="A Website For Startup, Big And Small Companies">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/snifftegistlogo.png" type="image/x-icon" title="snifftegist">
   <link rel="apple-touch-icon" href="images/snifftegistlogo.png" title="snifftegist">
@@ -83,10 +83,11 @@
   BdlkMaDZsY3eGPxSqyewZR5OIndgw30Zg9HRxRUEXeWNhjlQLKP12wtkcgYCsK3h
   BRStHXBcnK5uy0XG9A64HZKeRA==
   -----END CERTIFICATE REQUEST-----">
+  <meta name="ads-txt" content="">
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
   <meta X-Content-Type-Options="nosniff">
-  <title>Smart-After Government WEBSITE</title>
+  <title>Smart-Build Industry WEBSITE</title>
   <link rel="stylesheet" href="style.css">
   <script type="module" src="script/setcookie.php"></script>
   <style>
@@ -101,7 +102,7 @@
       background-image: url("images/bgpool.png");
       background-repeat: no-repeat;
       background-size: cover;
-      position: relative;
+      position: static;
       width: initial;
       height: initial;
       padding-top: 2px;
@@ -624,7 +625,7 @@
       text-decoration-color: red;
     }
 
-    .deng {
+    .light {
       text-align: center;
       background-color: black;
       border-top-left-radius: 5px;
@@ -663,7 +664,7 @@
       }
     }
 
-    .deng2 {
+    .light2 {
       text-align: center;
       background-color: transparent;
       border-top-left-radius: 5px;
@@ -698,7 +699,7 @@
       }
     }
 
-    .dengagr {
+    .lightagr {
       color: burlywood;
       text-align: center;
       font-size: 16px;
@@ -716,54 +717,82 @@
       text-decoration-line: underline;
     }
 
-    .dengtext {
-      text-decoration: none;
-      color: burlywood;
-      font-size: 16px;
-      font-family: "Poppins";
-      font-weight: 200;
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-
-    .after {
+    .build {
       text-decoration: none;
       color: white;
-      font-size: 16px;
+      font-size: 14px;
+      font-family: "Poppins";
+      font-weight: 200;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: justify;
+    }
+
+    .buildg {
+      text-decoration: none;
+      color: rgb(0, 203, 0);
+      font-size: 14px;
       font-family: "Poppins";
       font-weight: 200;
       margin-left: 10px;
       margin-right: 10px;
     }
 
-    .dengnote {
+    .swr {
+      background-image: url("images/srefund.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: sticky;
+      color: rgba(245, 245, 245, 0.972);
+      text-align: center;
+      font-size: 18px;
+      font-family: "Poppins";
+      font-weight: 200;
+      width: initial;
+      height: initial;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 37px;
+      padding-right: 5px;
+      margin-top: 1px;
+      margin-bottom: 1%;
+      margin-left: 10px;
+      margin-right: 1px;
       text-decoration: none;
-      color: burlywood;
-      font-size: 19px;
-      font-family: "Poppins";
-      font-weight: 200;
-      margin-left: 15px;
-      margin-right: 15px;
+      animation: sRefund 0.7s infinite;
+      animation-direction: alternate;
     }
 
-    .noteif {
-      text-align: center;
-      color: white;
-      font-size: 14px;
-      font-family: "Poppins";
-      font-weight: 200;
-      margin-left: 5px;
-      margin-right: 5px;
+    @keyframes sRefund {
+
+      30% {
+        background-image: url("images/srefund1.png");
+      }
+
+      100% {
+        background-image: url("images/srefund2.png");
+      }
+
     }
 
-    .noter {
+    .swr:hover {
+      color: rgb(0, 198, 0);
+      background-color: #0a0a0a;
+      border-radius: 5px;
       text-align: center;
-      color: rgb(4, 211, 4);
-      font-size: 14px;
+      font-size: 18px;
       font-family: "Poppins";
-      font-weight: 200;
-      margin-left: 5px;
-      margin-right: 5px;
+      font-weight: 400;
+      width: initial;
+      height: initial;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 37px;
+      padding-right: 5px;
+      margin-top: 1px;
+      margin-bottom: 1%;
+      margin-left: 10px;
+      margin-right: 1px;
     }
 
     .show {
@@ -1127,65 +1156,51 @@
     <h2 id="koi">SniffTegist</h2>
     <button class="btn active" onclick="filterSelection('all')" type="button">Show all</button>
     <button class="btn" onclick="filterSelection('information')" type="button">Information</button>
-    <button class="btn" onclick="filterSelection('proceed')" type="button">Proceed</button>
+    <button class="btn" onclick="filterSelection('payment')" type="button">Payment</button>
   </div>
 
   <!-- The filterable elements. Note that some have multiple class names (this is because they belong to multiple categories) -->
 
-  <div class="container" id="container">
+  <div class="container" id="container"><br>
     <ul id="myUL">
       <div class="filterDiv information">
-        <div class="names">Smart WEBSITE:<div class="categorya">For Government.</div>
-          <div class="categoryb">A Website For Sectors Of The Local, Federal And State Government.</div>
+        <div class="names">Smart WEBSITE:<div class="categorya">For Industries.</div>
+          <div class="categoryb">A Website For Startup, Big And Small Companies.</div>
           <div class="ptext">It will be set with Consent Messaging, GOOGLE AdSense, Ads, Analytics, Data
             Studio with privacy messaging, to make the best out of the internet.</div>
           <div class="option">Amount =</div><b class="current">$150</b>
           <div class="option">Or</div><b class="current">N150,000</b><b class="dot">,</b>
           <div class="slashed">Slashed</div><b class="cutoff">$250 Or N250,000</b><b class="dot">.</b>
         </div>
-        <div class="deng">
-          <h5 class="dengagr">Agreement of Proceed</h5>
-          <h5 class="dengtext">
-            Step 1:<div class="after">Please make sure you read our<a id="tosfirst" href="tos.html">TOS</a>and<a
-                id="tacfirst" href="tac.html">TAC</a>and understand carefully, as the first step to contracting
-              SniffTegist for building your company valuable website.
-            </div>
-          </h5>
-          <h5 class="dengtext">
-            Step 2:<div class="after">Prepare the budget to be ready for building the website you will be contracting
-              SniffTegist for.</div>
-          </h5>
-          <h5 class="dengtext">
-            Step 3:<div class="after">You should pay the total amount immediately after reading a green message of
-              completed your WEBSITE.</div>
-          </h5>
-          <h5 class="dengtext">
-            Step 4:<div class="after">Immediately after showing to you the website, means a service completion. And you
-              may correct us for any input errors that may be found in the website contents, but
-              refusing to pay us immediately will be a penalty. Given to you an additional month to pay for the service
-              is sufficiently enough patient. Otherwize justice for SniffTegist may conditionally apply.</div>
-          </h5>
-          <h5 class="dengtext">
-            Step 5:<div class="after">Make sure the copy of this process is printed or kept where you can remember.
-            </div>
-          </h5>
-          <h5 class="dengnote">
-            Note:<div class="noteif">If you are satisfied with the above agreement, please make us start soon.</div>
-          </h5>
-          <h5 class="dengnote">
-            Responsibility:<div class="noter">We hope to Vision or Modify with you what will be pleased.</div>
-          </h5>
+        <div class="light">
+          <h5 class="lightagr">Head Up</h5>
+          <h4 class="build">Please make sure you read our<a id="tosfirst" href="tos.html">TOS</a>and<a id="tacfirst"
+              href="tac.html">TAC</a>and understand carefully, as the first step to contracting SniffTegist for building
+            your company valuable website. You are paying the total amount for building your WEBSITE. And after the
+            payment your
+            receipt/invoice
+            will be issued for evidence of payment. Also depending on the complexity of the website, our maximum period
+            for completion may be a month but will not exceed 12
+            weeks. Even if the contract is included with a Brand Designing or Strategy Building. Except if the delay is
+            made by Representative, an Account Owner, CEO, MD, the
+            Contractor or Employer or the website manager. Snifftegist may not be held responsible for prolonging
+            designing and building contract.
+          </h4>
+          <h4 class="build">You can monitor the progress starting from 48 Hours of Contracting SniffTegist Daily or
+            weekly, via the link we will send to you in a few days.</h4>
+          <h4 class="build">We hope to build a WEBSITE that will be pleased, starting immediately after you make the
+            payment.</h4>
+          <h4 class="buildg">Request a refund if nothing start after 48 Hours of Contracting SniffTegist.</h4>
         </div>
       </div>
-      <div class="filterDiv proceed">
-        <div class="deng2" title="smart7D">
+      <div class="filterDiv payment">
+        <div class="light2" title="smart7D">
           <!--payment-->
-          <iframe class="gform"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdkV4BWjP_pVUlLZKgK0H1iPbpL2eifWCfRhXs4UbFfQh_-Fw/viewform"
-            frameborder="0" width="340" height="1050"></iframe><br>
-        </div>
+          <iframe title="websitebuilding" class="suqad" src="https://pay.squadco.com/iwebsitebuildingpayment"
+            frameborder="0" width="340" height="1170"></iframe><br>
+        </div><a class="swr" href="">Refund</a>
       </div>
-    </ul>
+    </ul><br>
   </div>
   <div class="reviewing"><br><a id="review2"
       href="https://www.google.com/maps/place/SniffTegist,+NO+9+Duba+Road,+Malali+800283,+Kaduna/@10.5549676,7.4721882,16z/data=!4m6!3m5!1s0x11b2b543f8aa8df3:0xb4592fbd8c410820!8m2!3d10.5560381!4d7.4719829!16s%2Fg%2F11mr2cj43_">
