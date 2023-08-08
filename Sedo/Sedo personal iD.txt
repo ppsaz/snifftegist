@@ -1,0 +1,10 @@
+Sedo personal iD and TXT Record for Namecheap =	Value: 0a24673c793b0a80ca5abb46166a5271a9491ed6	Host: @
+Sedo personal iD and TXT Record for Namecheap =	Value: wT9aeAfqX99mO8hAleWlNdUIJawRMk_LnEV0b6da	Host: @
+
+TTL Value: 3600
+
+Or CNAME Record =	Value: verify.sedo.com	Host: 0a24673c793b0a80ca5abb46166a5271a9491ed6
+
+Nameserver =	Primary Server Name: NS1.SEDOPARKING.COM	Secondary Server Name: NS2.SEDOPARKING.COM
+
+Your customer communication PIN is 8111
