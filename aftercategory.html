@@ -3,26 +3,27 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="keywords" content="https://snifftegist.com">
+  <meta name="snifftegist" content="https://snifftegist.com/after-category">
+  <meta name="keywords" content="A website To Optionally Set With Or Without Sponsored ADs">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/snifftegistlogo.png" type="image/x-icon" title="snifftegist">
   <link rel="apple-touch-icon" href="images/snifftegistlogo.png" title="snifftegist">
   <script async src="https://fundingchoicesmessages.google.com/i/pub-9324524444765938?ers=1"
     nonce="zNzg0_XgiiqVN1s9NtPhXw"></script>
-    <script>
-      window.datalayer = window.datalayer || [];
-      function gtag(){datalayer.push(arguments);}
-  
-      if(localStorage.getItem('consentMode') === null){
-          gtag('consent', 'default', {
-              'ad_storage': 'denied',
-              'analytics_storage': 'denied',
-              'personalization_storage': 'denied',
-              'security_storage': 'denied',
-          });
-      }
-  
-      else{gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')))}
+  <script>
+    window.datalayer = window.datalayer || [];
+    function gtag() { datalayer.push(arguments); }
+
+    if (localStorage.getItem('consentMode') === null) {
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'personalization_storage': 'denied',
+        'security_storage': 'denied',
+      });
+    }
+
+    else { gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode'))) }
   </script>
   <script
     nonce="zNzg0_XgiiqVN1s9NtPhXw">(function () { function signalGooglefcPresent() { if (!window.frames['googlefcPresent']) { if (document.body) { const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe); } else { setTimeout(signalGooglefcPresent, 0); } } } signalGooglefcPresent(); })();</script>
@@ -1443,56 +1444,56 @@
       }
     }
   </script>
-    <script>
-      window.isSubscriber = undefined;
-      function determineIfUserIsSubscriber() {
-        if (isSubscriber !== undefined) {
-          return isSubscriber;
-        }
-        return new Promise(resolve => {
-          setTimeout(() => {
-            // Change this to true if you want to test what subscribers would see.
-            window.isSubscriber = false;
-            resolve(window.isSubscriber);
-          }, 0);
-        });
+  <script>
+    window.isSubscriber = undefined;
+    function determineIfUserIsSubscriber() {
+      if (isSubscriber !== undefined) {
+        return isSubscriber;
       }
-    </script>
-    <script>
-      // Define googlefc and the controlled messaging function on the Window.
-      window.googlefc = window.googlefc || {};
-      googlefc.controlledMessagingFunction = async (message) => {
-        // Determine if the user is a subscriber asynchronously.
-        const isSubscriber = await determineIfUserIsSubscriber();
-  
-        if (isSubscriber) {
-          // If the user is a subscriber, don't show any messages.
-          message.proceed(false);
-        } else {
-          // Otherwise, show messages as usual.
-          message.proceed(true);
-        }
+      return new Promise(resolve => {
+        setTimeout(() => {
+          // Change this to true if you want to test what subscribers would see.
+          window.isSubscriber = false;
+          resolve(window.isSubscriber);
+        }, 0);
+      });
+    }
+  </script>
+  <script>
+    // Define googlefc and the controlled messaging function on the Window.
+    window.googlefc = window.googlefc || {};
+    googlefc.controlledMessagingFunction = async (message) => {
+      // Determine if the user is a subscriber asynchronously.
+      const isSubscriber = await determineIfUserIsSubscriber();
+
+      if (isSubscriber) {
+        // If the user is a subscriber, don't show any messages.
+        message.proceed(false);
+      } else {
+        // Otherwise, show messages as usual.
+        message.proceed(true);
       }
-    </script>
-    <script>
-      // Define googlefc and the controlled messaging function on the Window.
-      window.googlefc = window.googlefc || {};
-      googlefc.controlledMessagingFunction = async (message) => {
-        // Determine if the Offerwall should display or not.
-        const shouldDisplayOfferwall = await determineIfUserIsSubscriber();
-        const applicableMessageTypes = [];
-  
-        if (!shouldDisplayOfferwall) {
-          // Do not show the Offerwall, but allow other message types to display.
-          applicableMessageTypes.push(window.googlefc.MessageTypeEnum.OFFERWALL);
-          message.proceed(false, applicableMessageTypes);
-        } else {
-          // Otherwise, show messages as usual.
-          message.proceed(true);
-        }
+    }
+  </script>
+  <script>
+    // Define googlefc and the controlled messaging function on the Window.
+    window.googlefc = window.googlefc || {};
+    googlefc.controlledMessagingFunction = async (message) => {
+      // Determine if the Offerwall should display or not.
+      const shouldDisplayOfferwall = await determineIfUserIsSubscriber();
+      const applicableMessageTypes = [];
+
+      if (!shouldDisplayOfferwall) {
+        // Do not show the Offerwall, but allow other message types to display.
+        applicableMessageTypes.push(window.googlefc.MessageTypeEnum.OFFERWALL);
+        message.proceed(false, applicableMessageTypes);
+      } else {
+        // Otherwise, show messages as usual.
+        message.proceed(true);
       }
-    </script>
-  
+    }
+  </script>
+
 </head>
 
 <body ononline="Function()" onload="gtag()">
@@ -1542,29 +1543,29 @@
       <div class="wes2">A website To Optionally Set With Or Without Sponsored ADs</div><br>
       <ul id="myUL2">
         <div class="filterDiv si">
-          <div class="hper"><img class="products3" title="schools" src="images/sweblogschool.png" alt="schools.png" width="100"
-              height="initial"><br><b class="names">School Or Institution</b><br>
+          <div class="hper"><img class="products3" title="schools" src="images/sweblogschool.png" alt="schools.png"
+              width="100" height="initial"><br><b class="names">School Or Institution</b><br>
             <h5 class="ptext">Professors, Public And Private Schools, ETC.</h5><a title="pay after" class="buildce"
               href="pawbpforsi.html"><b class="buildp">After</b></a><br>
           </div>
         </div>
         <div class="filterDiv g">
-          <div class="hper"><img class="products3" title="government" src="images/swebloggovernment.png" alt="government.png"
-              width="100" height="initial"><br><b class="names">Government</b><br>
+          <div class="hper"><img class="products3" title="government" src="images/swebloggovernment.png"
+              alt="government.png" width="100" height="initial"><br><b class="names">Government</b><br>
             <h5 class="ptext">Sectors Of The Federal And State Government.</h5><a title="pay after" class="buildce"
               href="pawbpforg.html"><b class="buildp">After</b></a><br>
           </div>
         </div>
         <div class="filterDiv in">
-          <div class="hper"><img class="products3" title="industries" src="images/sweblogindustries.png" alt="industries.png"
-              width="100" height="initial"><br><b class="names">Industries</b><br>
+          <div class="hper"><img class="products3" title="industries" src="images/sweblogindustries.png"
+              alt="industries.png" width="100" height="initial"><br><b class="names">Industries</b><br>
             <h5 class="ptext">Startup, Big And Small Companies.</h5><a title="pay after" class="buildce"
               href="pawbpfori.html"><b class="buildp">After</b></a><br>
           </div>
         </div>
         <div class="filterDiv sm">
-          <div class="hper"><img class="products3" title="businesses" src="images/sweblogmerchant.png" alt="merchants.png"
-              width="100" height="initial"><br><b class="names">Services And Merchandise</b><br>
+          <div class="hper"><img class="products3" title="businesses" src="images/sweblogmerchant.png"
+              alt="merchants.png" width="100" height="initial"><br><b class="names">Services And Merchandise</b><br>
             <h5 class="ptext">Entrepreneurs, Professionals and Traders.</h5><a title="pay after" class="buildce"
               href="pawbpforsm.html"><b class="buildp">After</b></a><br>
           </div>
@@ -1578,8 +1579,8 @@
           </div>
         </div>
         <div class="filterDiv mhc">
-          <div class="hper"><img class="products3" title="hospitals" src="images/swebloghospital.png" alt="hospitals.png"
-              width="100" height="initial"><br><b class="names">Medical/Health Center</b><br>
+          <div class="hper"><img class="products3" title="hospitals" src="images/swebloghospital.png"
+              alt="hospitals.png" width="100" height="initial"><br><b class="names">Medical/Health Center</b><br>
             <h5 class="ptext">Consultants, Federal, State And Private Hospitals.</h5><a title="pay after"
               class="buildce" href="pawbpformhc.html"><b class="buildp">After</b></a><br>
           </div>
