@@ -4,18 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/snifftegistlogo.png" type="image/x-icon" title="snifftegist">
   <link rel="apple-touch-icon" href="images/snifftegistlogo.png" title="snifftegist">
-  <script src="http://www.page2images.com/js/p2i.js"></script>
-  <script> var p2i=new page2images(); p2i.thumbnail('demo');</script>
-  <img alt="url-image-api" src='http://api.page2images.com/directlink?p2i_url=TARGET_URL&p2i_key=687fa009c22da06a&p2i_size=150x50'>
-  <meta content="https://snifftegist.com/images/sweblogindustries.png">
-  <meta property="og:image" content="https://snifftegist.com/images/sweblogindustries.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="150">
-  <meta property="og:image:height" content="150">
-  <meta property="og:image:alt" content="It will be set with Consent Messaging, GOOGLE AdSense, Ads, Analytics, Data
-  Studio with privacy messaging, to make the best out of the internet">
+  <base href="http://api.page2images.com/restfullink?p2i_url=https://snifftegist.com&p2i_key=YOUR_API_KEY">
   <meta name="keywords" content="We are Top Third GRADE Professionals and Businesses or Services Consultants.
   We
   are specifically pioneered at Designing Brands and Building Websites or
@@ -38,7 +28,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-780761667"></script>
 
   <script async src="https://fundingchoicesmessages.google.com/i/pub-9324524444765938?ers=1"
-  nonce="zNzg0_XgiiqVN1s9NtPhXw"></script>
+    nonce="zNzg0_XgiiqVN1s9NtPhXw"></script>
   <script
     nonce="zNzg0_XgiiqVN1s9NtPhXw">(function () { function signalGooglefcPresent() { if (!window.frames['googlefcPresent']) { if (document.body) { const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe); } else { setTimeout(signalGooglefcPresent, 0); } } } signalGooglefcPresent(); })();</script>
   <script>(function () {/*
@@ -83,7 +73,6 @@
   <script>
     window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date()); gtag('config', 'AW-780761667');</script>
-  <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9324524444765938"
     crossorigin="anonymous"></script>
   <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
@@ -1741,7 +1730,6 @@
       margin-bottom: 0%;
       color: #181818;
     }
-
   </style>
   <script>// Note that we are setting `SameSite=None;` in this example because the example
     // needs to work cross-origin.
@@ -1845,7 +1833,7 @@
 
     function setCookie(cname, cvalue, exdays) {
       const d = new Date();
-      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 10000));
       let expires = "expires=" + d.toUTCString();
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/.";
     }
@@ -1927,30 +1915,31 @@
     }
   </script>
   <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
       FB.init({
-        appId      : '{787842616091562}',
-        cookie     : true,
-        xfbml      : true,
-        version    : '{api-version}'
+        appId: '{787842616091562}',
+        cookie: true,
+        xfbml: true,
+        version: '{api-version}'
       });
-        
-      FB.AppEvents.logPageView();   
-        
+
+      FB.AppEvents.logPageView();
+
     };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
   </script>
 
 </head>
 
-<script data-cfasync="false" type="text/javascript" data-adel="atag" src="//acacdn.com/script/atg.js" czid="uogqddbzx7"></script>
+<script data-cfasync="false" type="text/javascript" data-adel="atag" src="https://acacdn.com/script/atg.js"
+  czid="uogqddbzx7"></script>
 
 <body onloadedmetadata="checkCookie()">
   <header>
@@ -1960,6 +1949,11 @@
       <div class="buttons" id="myButtons">
         <a class="seeing" id="developer" href="developer.html" title="developer">Developer</a><a class="seeing"
           id="about" href="about.html" title="about">About</a><b class="seeing" id="show" href="#" title="show">Show</b>
+      </div>
+
+      <div id="g_id_onload" data-client_id="163772564089-6imsnjrbkd0ldv5eaghtegcj55qvpvnc.apps.googleusercontent.com"
+        data-login_uri="https://snifftegist.com/sign-in-1-1690429089751"
+        data-your_own_param_1_to_login="drengs247@gmail.com" data-your_own_param_2_to_login="08166049252">
       </div>
     </div><br><br>
     <input type="text/search" id="myInput" aria-autocomplete="both" onkeydown="dFunction()" oninput="sFunction()"
@@ -1981,20 +1975,19 @@
   <!-- The filterable elements. Note that some have multiple class names (this is because they belong to multiple categories) -->
 
   <div class="container" id="container">
-    <div class="user-logo"><img id="user-doings" title="snifftegist" src="images/snifftegistlogo.png" alt="snifftegistlogo.png"
-    width="43" height="43"></div>
-    <div class="atton"><h1 class="attonce">We are Top Third GRADE Professionals and Businesses or Services Consultants.
+    <div class="atton">
+      <h1 class="attonce">We are Top Third GRADE Professionals and Businesses or Services Consultants.
         We
         are specifically pioneered at Designing Brands and Building Websites or
         Strategies for small and big businesses or services. Start including our services into your praxis, to prevent
         your valuable business or service
-        from loosing the Retention-Of-Influx (ROI).</h1></div>
+        from loosing the Retention-Of-Influx (ROI).</h1>
+    </div>
     <div class="insidewes1"><b class="wes">LOGO Samples</b></div>
     <ul id="myUL">
       <div class="filterDiv logos">
-        <div class="snilog" title="snifftegist">
-          <b class="names">SniffTegist</b><br>
-          <a href="sls1.html"><img class="logothree" src="images/sls1.png" alt="sls1.png" width="170" height="initial"></a>
+        <div class="snilog" title="snifftegist"><b class="names">SniffTegist</b><br>
+          <a href="sls1.html"><img class="logothree" src="images/sls1.png" alt="sls2..png" width="170" height="170"></a>
           <h5 class="ptexta">Strategized Logo</h5>
         </div>
       </div>
