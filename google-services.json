@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171157857215",
+    "project_id": "snifftegist-of-drsniff",
+    "storage_bucket": "snifftegist-of-drsniff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171157857215:android:f2f7f5fef6809b9149370a",
+        "android_client_info": {
+          "package_name": "com.snifftegist.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY9zgHAzP02FAbNWMnZHvRnFAW5fGYtTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
